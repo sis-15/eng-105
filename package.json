@@ -1,5 +1,6 @@
 {
   "name": "site",
+  "homepage": "https://sis-15.github.io/eng-105",
   "private": true,
   "version": "0.0.0",
   "type": "module",

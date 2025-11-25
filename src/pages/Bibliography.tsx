@@ -1,6 +1,6 @@
-import React from 'react';
-import { bibliography } from '../assets/texts';
-import ReactMarkdown from "react-markdown";
+// import React from 'react';
+// import { bibliography } from '../assets/texts';
+// import ReactMarkdown from "react-markdown";
 import '../index.css'
 
 export default function Bibliography() {

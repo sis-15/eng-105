@@ -1,7 +1,7 @@
 import Galaxy from './Galaxy'
 import './App.css'
 import StaggeredMenu from './StaggeredMenu'
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 const menuItems = [
   { label: "Home", ariaLabel: "Home", link: "/" },

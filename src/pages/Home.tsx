@@ -1,12 +1,12 @@
-import { useRef } from 'react';
-import VariableProximity from '../VariableProximity';
-import React, { useEffect, useState } from "react";
+// import { useRef } from 'react';
+// import VariableProximity from '../VariableProximity';
+import { useEffect, useState } from "react";
 import {Introduction} from '../assets/texts';
 import ReactMarkdown from "react-markdown";
 
 export default function Home() {
   const [open, setOpen] = useState(true);
-  const containerRef = useRef<HTMLSpanElement>(null);
+  // const containerRef = useRef<HTMLSpanElement>(null);
 
   // close on Esc
   useEffect(() => {

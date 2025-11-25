@@ -50,7 +50,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
   onMenuClose
 }: StaggeredMenuProps) => {
   const [open, setOpen] = useState(false);
-  const [menuActive, setMenuActive] = useState(false); // menu hidden by default
+  // const [menuActive, setMenuActive] = useState(false);
   const openRef = useRef(false);
   const panelRef = useRef<HTMLDivElement | null>(null);
   const preLayersRef = useRef<HTMLDivElement | null>(null);
@@ -116,7 +116,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
     const socialLinks = Array.from(panel.querySelectorAll('.sm-socials-link')) as HTMLElement[];
 
     const layerStates = layers.map(el => ({ el, start: Number(gsap.getProperty(el, 'xPercent')) }));
-    const panelStart = Number(gsap.getProperty(panel, 'xPercent'));
+    // const panelStart = Number(gsap.getProperty(panel, 'xPercent'));
 
     if (itemEls.length) {
       gsap.set(itemEls, { yPercent: 140, rotate: 10 });

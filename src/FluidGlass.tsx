@@ -7,8 +7,6 @@ import type {ThreeElements} from '@react-three/fiber';
 import {
   useFBO,
   useGLTF,
-  useScroll,
-  Image,
   Scroll,
   Preload,
   ScrollControls,
@@ -74,13 +72,13 @@ interface ModeWrapperProps extends MeshProps {
   modeProps?: ModeProps;
 }
 
-interface ZoomMaterial extends THREE.Material {
-  zoom: number;
-}
+// interface ZoomMaterial extends THREE.Material {
+//   zoom: number;
+// }
 
-interface ZoomMesh extends THREE.Mesh<THREE.BufferGeometry, ZoomMaterial> {}
+// interface ZoomMesh extends THREE.Mesh<THREE.BufferGeometry, ZoomMaterial> {}
 
-type ZoomGroup = THREE.Group & { children: ZoomMesh[] };
+// type ZoomGroup = THREE.Group & { children: ZoomMesh[] };
 
 const ModeWrapper = memo(function ModeWrapper({
   children,

@@ -8,7 +8,7 @@ import Bibliography from './pages/Bibliography.tsx';
 import Gallery from './pages/Gallery.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-<BrowserRouter>
+<BrowserRouter basename="/eng-105/">
   <Routes>
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />

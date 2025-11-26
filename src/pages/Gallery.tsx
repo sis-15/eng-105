@@ -3,7 +3,8 @@ import InfiniteMenu from '../InfiniteMenu'
 import cooper from '../assets/cooper.png';
 import romano from '../assets/romano.webp';
 import rafman from '../assets/rafman.jpg';
-import emperor from '../assets/emperor.jpeg'
+import emperor from '../assets/emperor.jpeg';
+// import giorgione from '../assets/giorgione.jpg'
 import { labels } from '../assets/texts';
 const items = [
   // { image: giorgione, link: 'https://google.com/', title: 'The Tempest', description: 'This is pretty cool, right?',author: 'Giorgio Barbarelli da Castelfranco', medium: 'Oil on canvas', size: '33 x 29"', date: 'c. 1508'},

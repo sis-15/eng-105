@@ -27,7 +27,8 @@ export default function Bibliography() {
     fontSize: "12pt",
     lineHeight: 2,
     marginLeft: "1in",
-    marginRight: "1in"
+    marginRight: "1in",
+    backdropFilter: "blur(4px)"
   }}>
   <div className="csl-entry">admin. “Jon Rafman - You Are Standing in an Open Field.” <i>New Art Editions</i>, 17 Dec. 2019, https://www.newarteditions.com/jon-rafman-you-are-standing-in-an-open-field/.</div>
   <div className="csl-entry">Britannica Editors. “Huangdi.” <i>Encyclopedia Britannica</i>, 13 May 2025, https://www.britannica.com/topic/Huangdi.</div>

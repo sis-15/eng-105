@@ -18,7 +18,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div style={{ position: "relative", width: "100%", minHeight: "100vh" }}>
+    <div style={{ position: "relative", width: "100%", minHeight: "100vh"}}>
 
       {open && (
         <div
@@ -115,7 +115,7 @@ export default function Home() {
   }}
 >
 </div>
-      <main style={{ position: "relative", zIndex: 1, color: "#fff", padding: 24 }}>
+      <main style={{ position: "relative", zIndex: 1, color: "#fff", padding: 24, backdropFilter: "blur(4px)"}}>
         <section id="learn-more" style={{ paddingTop: 40 }}>
           <h2>Exhibit Introduction</h2>
           <p style={{ maxWidth: 720 }}>

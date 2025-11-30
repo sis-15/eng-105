@@ -1,5 +1,6 @@
 import type { FC } from 'react';
 import type { MenuItem } from './InfiniteMenu';
+import './index.css';
 import ReactMarkdown from "react-markdown";
 
 interface InfoPopupProps {
@@ -9,7 +10,7 @@ interface InfoPopupProps {
 
 const InfoPopup: FC<InfoPopupProps> = ({ item, onClose }) => {
   return (
-    <div className="info-popup">
+    <div className="info-popup" style={{backdropFilter: "blur(4px)", color:'white'}}>
       <button onClick={onClose}>Close</button>
       <h2>{item.title}</h2>
       <img src={item.image} width="100%" alt={item.title} />

@@ -16,7 +16,7 @@ const items = [
 
 export default function Gallery() {
   return (
-    <div style={{height: '100%', width: '100%', position: 'relative', zIndex: 20 }}>
+    <div style={{height: '100%', width: '100%', position: 'relative', zIndex: 20,}}>
       <InfiniteMenu items={items}/>
     </div>
   );

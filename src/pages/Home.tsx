@@ -117,7 +117,7 @@ export default function Home() {
 </div>
       <main style={{ position: "relative", zIndex: 1, color: "#fff", padding: 24, backdropFilter: "blur(4px)"}}>
         <section id="learn-more" style={{ paddingTop: 40 }}>
-          <h2>Exhibit Introduction</h2>
+          <h2>The Scale of Being: A Perspective Beyond Measure</h2>
           <p style={{ maxWidth: 720 }}>
             {Introduction.split('\n').map((line, i) => (
                   <ReactMarkdown key={i}>{line}</ReactMarkdown>
